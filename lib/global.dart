@@ -1,0 +1,112 @@
+import 'package:assets_audio_player/assets_audio_player.dart';
+
+class Global {
+  static Map playSong = {};
+  static int index = 0;
+  static List songs = [
+    {
+      'name': 'Toko 1',
+      'sub': 'Fampidirana',
+      'path': 'assets/audio/1.mp3',
+      'player': AssetsAudioPlayer(),
+      'totalDuration': Duration.zero,
+      'image': 'images/1.jpg',
+    },
+    {
+      'name': 'Toko 2',
+      'sub': "Ny fitiavan'Andriamanitra ny olona",
+      'path': 'assets/audio/2.mp3',
+      'player': AssetsAudioPlayer(),
+      'totalDuration': Duration.zero,
+      'image': 'images/1.jpg',
+    },
+    {
+      'name': 'Toko 3',
+      'sub': "Ny ilan'ny mpanota an'i Kristy",
+      'path': 'assets/audio/3.mp3',
+      'player': AssetsAudioPlayer(),
+      'totalDuration': Duration.zero,
+      'image': 'images/2.jpg',
+    },
+    {
+      'name': 'Toko 4',
+      'sub': 'Ny fibebahana',
+      'path': 'assets/audio/4.mp3',
+      'player': AssetsAudioPlayer(),
+      'totalDuration': Duration.zero,
+      'image': 'images/2.jpg',
+    },
+    {
+      'name': 'Toko 5',
+      'sub': 'Ny fiaiken-keloka',
+      'path': 'assets/audio/5.mp3',
+      'player': AssetsAudioPlayer(),
+      'totalDuration': Duration.zero,
+      'image': 'images/3.jpg',
+    },
+    {
+      'name': 'Toko 6',
+      'sub': 'Fanoloran-tena',
+      'path': 'assets/audio/6.mp3',
+      'player': AssetsAudioPlayer(),
+      'totalDuration': Duration.zero,
+      'image': 'images/3.jpg',
+    },
+    {
+      'name': 'Toko 7',
+      'sub': 'Finoana, fiadanana, toky',
+      'path': 'assets/audio/7.mp3',
+      'player': AssetsAudioPlayer(),
+      'totalDuration': Duration.zero,
+      'image': 'images/4.jpg',
+    },
+    {
+      'name': 'Toko 8',
+      'sub': "Porofon'ny maha Kristiana",
+      'path': 'assets/audio/8.mp3',
+      'player': AssetsAudioPlayer(),
+      'totalDuration': Duration.zero,
+      'image': 'images/4.jpg',
+    },
+    {
+      'name': 'Toko 9',
+      'sub': 'Ny asa sy ny toe-piainana',
+      'path': 'assets/audio/9.mp3',
+      'player': AssetsAudioPlayer(),
+      'totalDuration': Duration.zero,
+      'image': 'images/5.png',
+    },
+    {
+      'name': 'Toko 10',
+      'sub': "Ny fahalalàna an'Andriamanitra",
+      'path': 'assets/audio/10.mp3',
+      'player': AssetsAudioPlayer(),
+      'totalDuration': Duration.zero,
+      'image': 'images/5.png',
+    },
+    {
+      'name': 'Toko 11',
+      'sub': 'Fivavahana sy fiderana',
+      'path': 'assets/audio/11.mp3',
+      'player': AssetsAudioPlayer(),
+      'totalDuration': Duration.zero,
+      'image': 'images/6.jpg',
+    },
+    {
+      'name': 'Toko 12',
+      'sub': "Inona no atao amin'ny fisalasalana",
+      'path': 'assets/audio/12.mp3',
+      'player': AssetsAudioPlayer(),
+      'totalDuration': Duration.zero,
+      'image': 'images/6.jpg',
+    },
+    {
+      'name': 'Toko 13',
+      'sub': "Fifaliana ao amin'i Kristy",
+      'path': 'assets/audio/13.mp3',
+      'player': AssetsAudioPlayer(),
+      'totalDuration': Duration.zero,
+      'image': 'images/7.jpg',
+    },
+  ];
+}
